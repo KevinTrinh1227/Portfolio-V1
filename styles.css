@@ -314,62 +314,79 @@ a:hover {
 /*--------------------------------------------------------------
 # intro message
 --------------------------------------------------------------*/
-
-.intro {
-  overflow: hidden;
-  padding: 0;
-  margin: 0;
+.ghost, .glitch {
+  opacity: 0.25;
 }
-
 
 .intro p, a {
   text-shadow: 0 0 8px rgba(255, 255, 255, 0.3);
   font-family: Courier, monospace;
   font-smoothing: antialiased;
-  margin: 0.8em 0;
   font-size: 1.2em;
   color: #B95;
 }
 
-.intro .ghost,
-.glitch {
-  opacity: 0.25;
-}
-
-.intro #message {
-  margin-left: -300px;
-  margin-top: -130px;
-  position: absolute;
-  height: 260px;
-  width: 600px;
-  left: 50%;
-  top: 30%;
-}
-
-.intro #animate {
-  text-shadow: 0 0 8px rgba(209, 194, 165, 0.1);
-  position: absolute;
-  color: #4f4228;
-  margin-top: 2px;
-  bottom: 0;
-}
-
 .intro #container {
-  height: 100%;
-  width: 100%;
-  left: 0;
-  top: 0;
-  height: 100vh;
+  height: 95vh;
 }
 
-.intro #container:before {
-  pointer-events: none;
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  content: "";
-  left: 0;
-  top: 0;
+@media (min-width: 767px) {
+  .intro {
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+  }
+
+
+  .intro p, a {
+    text-shadow: 0 0 8px rgba(255, 255, 255, 0.3);
+    font-family: Courier, monospace;
+    font-smoothing: antialiased;
+    margin: 0.8em 0;
+    font-size: 1.2em;
+    color: #B95;
+  }
+
+  .intro .ghost,
+  .glitch {
+    opacity: 0.25;
+  }
+
+  .intro #message {
+    margin-left: -650px;
+    margin-top: -140px;
+    position: absolute;
+    height: 275px;
+    width: 600px;
+    left: 50%;
+    top: 30%;
+  }
+
+  .intro #animate {
+    text-shadow: 0 0 8px rgba(209, 194, 165, 0.1);
+    position: absolute;
+    color: #4f4228;
+    margin-top: 2px;
+    bottom: 0;
+  }
+
+  .intro #container {
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    height: 100vh;
+  }
+
+  .intro #container:before {
+    pointer-events: none;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    content: "";
+    left: 0;
+    top: 0;
+  }
 }
 
 
