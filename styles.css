@@ -174,7 +174,8 @@ a:hover {
 .box-shadow-full {
   padding: 3rem 1.25rem;
   position: relative;
-  background-color: #fff;
+  background-color: #212F3D;
+  border-radius: 20px;
   margin-bottom: 3rem;
   z-index: 2;
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.06), 0 2px 5px 0 rgba(0, 0, 0, 0.2);
@@ -299,6 +300,14 @@ a:hover {
   100% {
     transform: rotate(360deg);
   }
+}
+
+/*--------------------------------------------------------------
+# About me section
+--------------------------------------------------------------*/
+
+.about-me-desc{
+  color: #ABB2B9;
 }
 
 
