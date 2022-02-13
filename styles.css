@@ -305,6 +305,14 @@ a:hover {
 /*--------------------------------------------------------------
 # intro message
 --------------------------------------------------------------*/
+
+.intro {
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+}
+
+
 .intro p, a {
   text-shadow: 0 0 8px rgba(255, 255, 255, 0.3);
   font-family: Courier, monospace;
@@ -326,13 +334,14 @@ a:hover {
   height: 260px;
   width: 600px;
   left: 50%;
-  top: 50%;
+  top: 30%;
 }
 
 .intro #animate {
   text-shadow: 0 0 8px rgba(209, 194, 165, 0.1);
   position: absolute;
   color: #4f4228;
+  margin-top: 2px;
   bottom: 0;
 }
 
