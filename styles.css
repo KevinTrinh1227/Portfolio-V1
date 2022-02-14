@@ -133,6 +133,7 @@ a:hover {
 
 /*--/ Title A /--*/
 .title-box {
+  padding-top: 6rem;
   margin-bottom: 4rem;
   float: left;
 }
@@ -237,7 +238,7 @@ a:hover {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #0078ff;
+  background: #B95;
   width: 40px;
   height: 40px;
   border-radius: 50px;
@@ -249,8 +250,8 @@ a:hover {
   line-height: 0;
 }
 .back-to-top:hover {
-  background: #298eff;
-  color: #fff;
+  background: #fff;
+  color: #B95;
 }
 .back-to-top.active {
   visibility: visible;
@@ -276,7 +277,7 @@ a:hover {
   top: calc(50% - 30px);
   left: calc(50% - 30px);
   border: 6px solid #f2f2f2;
-  border-top: 6px solid #0078ff;
+  border-top: 6px solid #B95;
   border-radius: 50%;
   width: 60px;
   height: 60px;
@@ -505,6 +506,77 @@ p, a, {
   padding: 18px;
   font-style: italic;
 }
+
+
+/*--------------------------------------------------------------
+# experience section
+--------------------------------------------------------------*/
+
+li {
+	list-style: none;
+}
+
+.wrapper {
+	display: flex;
+  background: #212F3D;
+  border-radius: 20px;
+}
+.indicator {
+	padding: 1.5rem 0;
+}
+.indicator li {
+	display: flex;
+	align-items: center;
+	grid-gap: .5rem;
+	padding: 10px 2rem;
+	cursor: pointer;
+	font-size: .875rem;
+	color: #ABB2B9;
+	border-right: 3px solid transparent;
+}
+.indicator li i {
+	font-size: 1rem;
+}
+.indicator li:hover {
+	color: #B95;
+}
+.indicator li.active {
+	border-right-color: #B95;
+}
+.content {
+	padding: 1.5rem 2rem;
+}
+.content li {
+	display: none;
+}
+.content li.active {
+  color: #ABB2B9;
+	display: block;
+}
+.content li h1 {
+	font-size: 1.5rem;
+	font-weight: 600;
+	color: #ABB2B9;
+	margin-bottom: .75rem;
+}
+.content li p {
+	margin-bottom: .5rem;
+	color: #ABB2B9;
+	font-size: .875rem;
+}
+
+
+
+
+@media screen and (max-width: 576px) {
+	.wrapper {
+		flex-direction: column;
+	}
+	.indicator {
+		border-right: none;
+	}
+}
+
 
 /*------/ Comments /------*/
 .box-comments .list-comments li {
