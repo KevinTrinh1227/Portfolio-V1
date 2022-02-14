@@ -226,38 +226,6 @@ a:hover {
   border-radius: 50%;
 }
 
-
-
-/*--------------------------------------------------------------
-# Back to top button
---------------------------------------------------------------*/
-.back-to-top {
-  position: fixed;
-  visibility: hidden;
-  opacity: 0;
-  right: 15px;
-  bottom: 15px;
-  z-index: 996;
-  background: #B95;
-  width: 40px;
-  height: 40px;
-  border-radius: 50px;
-  transition: all 0.4s;
-}
-.back-to-top i {
-  font-size: 28px;
-  color: #fff;
-  line-height: 0;
-}
-.back-to-top:hover {
-  background: #fff;
-  color: #B95;
-}
-.back-to-top.active {
-  visibility: visible;
-  opacity: 1;
-}
-
 /*------/ Prelaoder /------*/
 #preloader {
   position: fixed;
@@ -566,8 +534,6 @@ li {
 }
 
 
-
-
 @media screen and (max-width: 576px) {
 	.wrapper {
 		flex-direction: column;
@@ -626,7 +592,13 @@ li {
     float: right;
     padding: 20px;
   }
+
+  .navlist li a {
+    padding: 0.5rem;
+  }
+
 }
+
 
 
 /*--------------------------------------------------------------
