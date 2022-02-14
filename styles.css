@@ -614,6 +614,20 @@ li {
   margin-left: 40px;
 }
 
+/*--------------------------------------------------------------
+# navlist Section
+--------------------------------------------------------------*/
+
+@media (min-width: 768px) {
+  .navlist {
+    position: sticky;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    float: right;
+    padding: 20px;
+  }
+}
+
 
 /*--------------------------------------------------------------
 # Footer
