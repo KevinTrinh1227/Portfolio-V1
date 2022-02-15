@@ -18,7 +18,7 @@ a {
   transition: all 0.5s ease-in-out;
 }
 a:hover {
-  color: #0078ff;
+  color: #ABB2B9;
   text-decoration: none;
   transition: all 0.5s ease-in-out;
 }
@@ -226,51 +226,6 @@ a:hover {
   border-radius: 50%;
 }
 
-/*------/ Prelaoder /------*/
-#preloader {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  z-index: 9999;
-  overflow: hidden;
-  background: -webkit-radial-gradient(50% 50%, ellipse, #20202D 0%, #101018 75%, #060612 100%);
-  background: -moz-radial-gradient(50% 50%, ellipse, #20202D 0%, #101018 75%, #060612 100%);
-}
-
-#preloader:before {
-  content: "";
-  position: fixed;
-  top: calc(50% - 30px);
-  left: calc(50% - 30px);
-  border: 6px solid #f2f2f2;
-  border-top: 6px solid #B95;
-  border-radius: 50%;
-  width: 60px;
-  height: 60px;
-  -webkit-animation: animate-preloader 1s linear infinite;
-  animation: animate-preloader 1s linear infinite;
-}
-
-@-webkit-keyframes animate-preloader {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
-}
-
-@keyframes animate-preloader {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
-}
-
 /*--------------------------------------------------------------
 # About me section
 --------------------------------------------------------------*/
@@ -337,6 +292,12 @@ a:hover {
     color: #4f4228;
     margin-top: 2px;
     bottom: 0;
+  }
+
+  .intro #animate:hover {
+    color: #ABB2B9;
+    text-decoration: none;
+    transition: all 0.5s ease-in-out;
   }
 
   .intro #container {
@@ -584,13 +545,21 @@ li {
 # navlist Section
 --------------------------------------------------------------*/
 
+.navlist {
+  display: none;
+}
+
 @media (min-width: 768px) {
   .navlist {
-    position: sticky;
-    margin-right: 20px;
-    margin-bottom: 20px;
-    float: right;
-    padding: 20px;
+    display: block;
+    position:  fixed;
+    right: 0;
+    bottom: 0;
+    padding: 2rem;
+  }
+
+  .navlist ul li {
+    padding: 0.7rem;
   }
 
   .navlist li a {
@@ -598,8 +567,6 @@ li {
   }
 
 }
-
-
 
 /*--------------------------------------------------------------
 # Footer
