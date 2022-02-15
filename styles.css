@@ -568,6 +568,24 @@ li {
 
 }
 
+.displaynone {
+  display: none;
+}
+
+/* discord button copy and paste */
+.navlist ul li button:hover {
+  color: #ABB2B9;
+  text-decoration: none;
+  transition: all 0.5s ease-in-out;
+}
+
+.navlist ul li button {
+  color: #B95;
+  border: none;
+  outline: none;
+  background: #17202A;
+}
+
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
