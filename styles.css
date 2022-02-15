@@ -50,31 +50,6 @@ a:hover {
   box-shadow: 0 0 0 4px #cde1f8;
 }
 
-.display-5 {
-  font-size: 2.5rem;
-  font-weight: 300;
-  line-height: 1.1;
-}
-
-.display-6 {
-  font-size: 2rem;
-  font-weight: 300;
-  line-height: 1.1;
-}
-
-.avatar {
-  width: 32px;
-  height: 32px;
-  margin-right: 4px;
-  overflow: hidden;
-}
-
-.bg-image {
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-  background-position: center center;
-}
 @media (max-width: 1024px) {
   .bg-image {
     background-attachment: scroll;
@@ -185,45 +160,6 @@ a:hover {
   .box-shadow-full {
     padding: 3rem;
   }
-}
-
-/*------/ Ul resect /------*/
-.ul-resect, .widget-tags ul, .widget-sidebar .list-sidebar, .box-comments .list-comments, .recentprojects-wrapper .post-meta ul, .list-ico, .socials ul {
-  list-style: none;
-  padding-left: 0;
-  margin-bottom: 0;
-}
-
-.list-ico {
-  line-height: 2;
-}
-.list-ico span {
-  color: #0078ff;
-  margin-right: 10px;
-}
-
-/*--/ Scrolltop s /--*/
-.scrolltop-mf {
-  position: relative;
-  display: none;
-}
-.scrolltop-mf span {
-  z-index: 999;
-  position: fixed;
-  width: 42px;
-  height: 42px;
-  background-color: #0078ff;
-  opacity: 0.7;
-  font-size: 1.6rem;
-  line-height: 1.5;
-  text-align: center;
-  color: #fff;
-  top: auto;
-  left: auto;
-  right: 30px;
-  bottom: 50px;
-  cursor: pointer;
-  border-radius: 50%;
 }
 
 /*--------------------------------------------------------------
@@ -502,43 +438,6 @@ li {
 	.indicator {
 		border-right: none;
 	}
-}
-
-
-/*------/ Comments /------*/
-.box-comments .list-comments li {
-  padding-bottom: 40px;
-}
-.box-comments .list-comments .comment-avatar {
-  display: table-cell;
-  vertical-align: top;
-}
-.box-comments .list-comments .comment-avatar img {
-  width: 80px;
-  height: 80px;
-}
-.box-comments .list-comments .comment-author {
-  font-size: 1.3rem;
-}
-@media (min-width: 768px) {
-  .box-comments .list-comments .comment-author {
-    font-size: 1.5rem;
-  }
-}
-.box-comments .list-comments .comment-details {
-  display: table-cell;
-  vertical-align: top;
-  padding-left: 25px;
-}
-.box-comments .list-comments a {
-  color: #0078ff;
-}
-.box-comments .list-comments span {
-  color: #1e1e1e;
-  font-style: italic;
-}
-.box-comments .comment-children {
-  margin-left: 40px;
 }
 
 /*--------------------------------------------------------------
