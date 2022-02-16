@@ -170,6 +170,20 @@ a:hover {
   color: #ABB2B9;
 }
 
+.languages-list ul {
+  list-style: none;
+}
+
+.languages-list ul li {
+  color: #ABB2B9;
+}
+
+.languages-list ul li::before {
+  content: "▸";
+  padding-right: 10px;
+  color: #B95;
+}
+
 
 /*--------------------------------------------------------------
 # intro message
