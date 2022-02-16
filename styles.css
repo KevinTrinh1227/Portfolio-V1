@@ -445,7 +445,15 @@ li {
 .content li p {
 	margin-bottom: .5rem;
 	color: #ABB2B9;
-	font-size: .875rem;
+	font-size: 1rem;
+  width: 50%;
+}
+
+.content li li {
+	margin-bottom: .5rem;
+	color: #ABB2B9;
+	font-size: 1rem;
+  width: 50%;
 }
 
 
