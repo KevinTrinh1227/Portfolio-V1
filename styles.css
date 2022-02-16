@@ -179,7 +179,7 @@ a:hover {
 }
 
 .languages-list ul li::before {
-  content: "▸";
+  content: "a";
   padding-right: 10px;
   color: #B95;
 }
