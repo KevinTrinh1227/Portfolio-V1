@@ -10,5 +10,5 @@ function myFunction() {
   navigator.clipboard.writeText(copyText.value);
 
   /* Alert the copied text */
-  alert("Copied Dicord tag to clipboard: " + copyText.value);
+  alert("Copied To Clipboard: " + copyText.value);
 }
