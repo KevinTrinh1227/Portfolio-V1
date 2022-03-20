@@ -481,10 +481,15 @@ li {
     right: 0;
     bottom: 0;
     padding: 2rem;
+    text-align: right;
   }
 
   .navlist ul li {
-    padding: 0.7rem;
+    padding: 0.05rem;
+  }
+
+  .navlist li nav {
+    padding-top: 2.5rem;
   }
 
   .navlist li a {
