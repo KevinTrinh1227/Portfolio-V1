@@ -173,7 +173,7 @@ a:hover {
 }
 
 .myportrait:hover {
-  height: 370px;
+  border: 2px solid red;
 }
 
 .about-me-desc{
