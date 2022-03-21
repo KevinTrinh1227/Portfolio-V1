@@ -172,6 +172,10 @@ a:hover {
   border: 2px solid #B95;
 }
 
+.myportrait:hover {
+  height: 370px;
+}
+
 .about-me-desc{
   color: #ABB2B9;
 }
