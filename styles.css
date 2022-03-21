@@ -166,6 +166,12 @@ a:hover {
 # About me section
 --------------------------------------------------------------*/
 
+.myportrait {
+  height: 350px;
+  border-radius: 15px;
+  border: 2px solid #B95;
+}
+
 .about-me-desc{
   color: #ABB2B9;
 }
