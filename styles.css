@@ -166,6 +166,21 @@ a:hover {
 # About me section
 --------------------------------------------------------------*/
 
+.about-bold {
+  font-weight: bold;
+}
+
+.about-me-desc strong a {
+  color: #B95;
+  font-size: 1rem;
+  text-shadow: 0 0 0px rgba(255, 255, 255, 0.3);
+}
+
+.about-me-desc strong a:hover {
+  font-family: Courier, monospace;
+  color: #ABB2B9;
+}
+
 .myportrait {
   height: 375px;
   border-radius: 15px;
@@ -203,14 +218,6 @@ a:hover {
   opacity: 0.25;
 }
 
-.intro p, a {
-  text-shadow: 0 0 8px rgba(255, 255, 255, 0.3);
-  font-family: Courier, monospace;
-  font-smoothing: antialiased;
-  font-size: 1.2em;
-  color: #B95;
-}
-
 .intro #container {
   height: 95vh;
 }
@@ -226,7 +233,6 @@ a:hover {
   .intro p, a {
     text-shadow: 0 0 8px rgba(255, 255, 255, 0.3);
     font-family: Courier, monospace;
-    font-smoothing: antialiased;
     margin: 0.8em 0;
     font-size: 1.2em;
     color: #B95;
