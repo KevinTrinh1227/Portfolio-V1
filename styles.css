@@ -515,13 +515,13 @@ li {
   border-radius: 20px;
 }
 .indicator {
-	padding: 1.5rem 0;
+	padding: 2.5rem 0;
 }
 .indicator li {
 	display: flex;
 	align-items: center;
 	grid-gap: .5rem;
-	padding: 10px 2rem;
+	padding: 10px 4rem;
 	cursor: pointer;
 	font-size: .875rem;
 	color: #ABB2B9;
@@ -572,7 +572,7 @@ li {
 		flex-direction: column;
 	}
 	.indicator {
-		border-right: none;
+		border-right: auto;
 	}
 }
 
