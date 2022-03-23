@@ -173,7 +173,8 @@ a:hover {
 }
 
 .myportrait:hover {
-  border: 2px solid red;
+  border: 2px solid #ABB2B9;
+  transition: all 0.25s ease-in-out;
 }
 
 .about-me-desc{
