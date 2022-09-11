@@ -249,13 +249,19 @@ a:hover {
 }
 
 .intro_section h1 {
-  color: #efc371;
+  color: #B95;
+  text-shadow: 0 0 8px rgba(255, 255, 255, 0.3);
   margin: 0 0 10px;
   font-size: 35px;
 }
 
 .intro_section strong {
   color: #ABB2B9;
+}
+
+.intro_section .introParagraph {
+  color: #B95;
+  text-shadow: 0 0 8px rgba(255, 255, 255, 0.3);
 }
 
 .intro_section em {
