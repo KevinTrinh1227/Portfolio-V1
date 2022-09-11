@@ -115,6 +115,7 @@ a:hover {
 
 .title-a {
   color: #B95;
+  text-shadow: 0 0 8px rgba(255, 255, 255, 0.3);
   font-family: Courier, monospace;
   text-decoration: none;
   font-size: 3rem;
@@ -122,6 +123,7 @@ a:hover {
 
 .subtitle-a {
   text-decoration: none;
+  text-shadow: 0 0 8px rgba(255, 255, 255, 0.3);
   float: left;
   color: #B95;
 }
@@ -608,11 +610,13 @@ li {
 
 @media (min-width: 1850px) {
   .navlist {
+    font-size: 0.85rem;
+    text-transform: lowercase;
     display: block;
-    position:  fixed;
+    position: fixed;
     right: 0;
     bottom: 0;
-    padding: 2rem;
+    padding: 6rem;
     text-align: right;
   }
 
