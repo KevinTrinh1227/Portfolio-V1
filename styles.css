@@ -236,12 +236,18 @@ a:hover {
 }
 
 .intro_section {
-  padding-top: 21rem;
+  padding-top: 1rem;
   background: #17202A;
   color: #F5F5F5;
   line-height: 1.4;
   font-family: Courier, monospace;
   height: 100vh;
+}
+
+@media (min-width: 767px) {
+  .intro_section {
+    padding-top: 21rem;
+  }
 }
 
 .intro_section::-webkit-scrollbar {
