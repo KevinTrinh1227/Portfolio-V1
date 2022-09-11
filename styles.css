@@ -123,6 +123,7 @@ a:hover {
 
 .subtitle-a {
   text-decoration: none;
+  text-align: left;
   text-shadow: 0 0 8px rgba(255, 255, 255, 0.3);
   float: left;
   color: #B95;
