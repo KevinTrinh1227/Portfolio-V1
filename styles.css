@@ -232,6 +232,14 @@ a:hover {
   height: 95vh;
 }
 
+.intro #message {
+  text-shadow: 0 0 8px rgba(255, 255, 255, 0.3);
+  font-family: Courier, monospace;
+  margin: 0.8em 0;
+  font-size: 1.2em;
+  color: #B95;
+}
+
 @media (min-width: 767px) {
   .intro {
     overflow: hidden;
@@ -246,11 +254,6 @@ a:hover {
     margin: 0.8em 0;
     font-size: 1.2em;
     color: #B95;
-  }
-
-  .intro .ghost,
-  .glitch {
-    opacity: 0.25;
   }
 
   .intro #message {
