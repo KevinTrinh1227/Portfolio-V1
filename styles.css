@@ -222,7 +222,7 @@ a:hover {
 
 
 /*--------------------------------------------------------------
-# intro message
+# intro landing screen
 --------------------------------------------------------------*/
 
 .intro_section * {
@@ -255,12 +255,17 @@ a:hover {
   font-size: 35px;
 }
 
+.intro_section a {
+  color: #B95;
+  text-shadow: 0 0 8px rgba(255, 255, 255, 0.3);
+}
+
 .intro_section strong {
-  color: #ABB2B9;
+  color: #ECF0F1;
 }
 
 .intro_section .introParagraph {
-  color: #B95;
+  color: #ABB2B9;
   text-shadow: 0 0 8px rgba(255, 255, 255, 0.3);
 }
 
@@ -268,26 +273,8 @@ a:hover {
   color: #dd925f;
 }
 
-.intro_section h2 {
-  color: #ae94c0;
-  margin: 10px 0;
-  text-transform: uppercase;
-}
-
-.intro_section blockquote, ol {
-  border-left: 1px solid #4d4d4c;
-  margin: 10px 0 10px 20px;
-  padding: 0 0 0 20px;
-  color: #efc371;
-}
-
-.intro_section blockquote {
-  margin: 10px 0 10px 40px;
-  font-style: italic;
-}
-
 .intro_section h3 {
-  color: #ae94c0;
+  padding-top: 1rem;
   margin: 10px 0;
 }
 
