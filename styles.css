@@ -118,6 +118,7 @@ a:hover {
   text-shadow: 0 0 8px rgba(255, 255, 255, 0.3);
   font-family: Courier, monospace;
   text-decoration: none;
+  text-align: left;
   font-size: 3rem;
 }
 
