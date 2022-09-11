@@ -260,6 +260,12 @@ a:hover {
   text-shadow: 0 0 8px rgba(255, 255, 255, 0.3);
 }
 
+.intro_section a:hover {
+  color: #ECF0F1;
+  transition: all 0.5s ease-in-out;
+  text-shadow: 0 0 2px rgba(255, 255, 255, 0.1);
+}
+
 .intro_section strong {
   color: #ECF0F1;
 }
@@ -659,7 +665,7 @@ li {
 .navlist ul li button:hover {
   color: #ABB2B9;
   text-decoration: none;
-  transition: all 0.5s ease-in-out;
+  transition: all 0.2s ease-in-out;
 }
 
 .navlist ul li button {
