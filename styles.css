@@ -29,7 +29,7 @@ a:hover {
 
 .color-a {
   text-decoration: none;
-  color: #0078ff;
+  color: #B95;
 }
 
 .color-d {
@@ -224,6 +224,78 @@ a:hover {
 /*--------------------------------------------------------------
 # intro message
 --------------------------------------------------------------*/
+
+.intro_section * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  position: relative;
+  font-weight: 400;
+  list-style-type: none;
+  font-style: normal;
+}
+
+.intro_section {
+  padding-top: 21rem;
+  background: #17202A;
+  color: #F5F5F5;
+  line-height: 1.4;
+  font-family: Courier, monospace;
+  height: 100vh;
+}
+
+.intro_section::-webkit-scrollbar {
+  display: none;
+}
+
+.intro_section h1 {
+  color: #efc371;
+  margin: 0 0 10px;
+  font-size: 35px;
+}
+
+.intro_section strong {
+  color: #ABB2B9;
+}
+
+.intro_section em {
+  color: #dd925f;
+}
+
+.intro_section h2 {
+  color: #ae94c0;
+  margin: 10px 0;
+  text-transform: uppercase;
+}
+
+.intro_section blockquote, ol {
+  border-left: 1px solid #4d4d4c;
+  margin: 10px 0 10px 20px;
+  padding: 0 0 0 20px;
+  color: #efc371;
+}
+
+.intro_section blockquote {
+  margin: 10px 0 10px 40px;
+  font-style: italic;
+}
+
+.intro_section h3 {
+  color: #ae94c0;
+  margin: 10px 0;
+}
+
+.intro_section img {
+  display: none;
+}
+
+.intro_section .comment {
+  color: #4d4d4c;
+}
+
+.intro_section p:nth-of-type(8) {
+  color: #b5bc67;
+}
 
 
 
