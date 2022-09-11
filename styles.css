@@ -610,7 +610,20 @@ li {
   display: none;
 }
 
-@media (min-width: 1850px) {
+.navlist ul li a:hover {
+  color: #ABB2B9;
+  text-decoration: none;
+  transition: all 0.5s ease-in-out;
+}
+
+.navlist ul li a {
+  color: #B95;
+  border: none;
+  outline: none;
+  background: #17202A;
+}
+
+@media (min-width: 1780px) {
   .navlist {
     font-size: 0.85rem;
     text-transform: lowercase;
