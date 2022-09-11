@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Space+Mono");
-* {
+#introSection * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -9,65 +9,63 @@
   font-style: normal;
 }
 
-body {
-  padding: 50px;
+#introSection {
+  padding-left: 7rem;
   background: #1d1f20;
   color: #cfd8dc;
   line-height: 1.4;
   font-family: "Space Mono", monospace;
 }
 
-::-webkit-scrollbar {
+#introSection ::-webkit-scrollbar {
   display: none;
 }
 
-h1 {
+#introSection h1 {
   color: #efc371;
   margin: 0 0 10px;
   font-size: 35px;
 }
 
-strong {
+#introSection strong {
   color: #b5bc67;
 }
 
-em {
+#introSection em {
   color: #dd925f;
 }
 
-h2 {
+#introSection h2 {
   color: #ae94c0;
   margin: 10px 0;
   text-transform: uppercase;
 }
 
-blockquote,
-ul,
-ol {
+#introSection blockquote, ul, ol {
   border-left: 1px solid #4d4d4c;
   margin: 10px 0 10px 20px;
   padding: 0 0 0 20px;
   color: #efc371;
 }
 
-blockquote {
+#introSection blockquote {
   margin: 10px 0 10px 40px;
   font-style: italic;
 }
 
-h3 {
+#introSection h3 {
   color: #ae94c0;
   margin: 10px 0;
 }
 
-img {
+#introSection img {
   display: none;
 }
 
-.comment {
+#introSection .comment {
   color: #4d4d4c;
 }
 
-p:nth-of-type(8) {
+#introSection p:nth-of-type(8) {
   color: #b5bc67;
 }
