@@ -319,6 +319,12 @@ p, a, {
     color: #D5D8DC;
   }
 }
+
+.col-md-4 {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
 .card-recentprojects .card-body {
   position: relative;
 }
@@ -507,6 +513,10 @@ p, a, {
 
 li {
 	list-style: none;
+}
+
+#experience {
+  text-align: left;
 }
 
 .wrapper {
