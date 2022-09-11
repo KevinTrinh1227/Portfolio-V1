@@ -187,12 +187,13 @@ a:hover {
 .myportrait {
   height: 375px;
   border-radius: 15px;
-  border: 2px solid #B95;
+  box-shadow: 10px 10px 58px 6px rgba(0,0,0,0.56);
+-webkit-box-shadow: 10px 10px 58px 6px rgba(0,0,0,0.56);
+-moz-box-shadow: 10px 10px 58px 6px rgba(0,0,0,0.56);
 }
 
-.myportrait:hover {
-  border: 2px solid #ABB2B9;
-  transition: all 0.25s ease-in-out;
+.col-md-6 img {
+  padding-left: 0rem;
 }
 
 .about-me-desc{
@@ -211,6 +212,12 @@ a:hover {
   content: "▸";
   padding-right: 10px;
   color: #B95;
+}
+
+@media (min-width: 768px) {
+  .col-md-6 .col-6-img-a {
+    padding-left: 4rem;
+  }
 }
 
 
