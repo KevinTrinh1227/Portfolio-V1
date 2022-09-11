@@ -298,6 +298,18 @@ a:hover {
   border-radius: 20px;
 }
 
+.post-date a {
+  color: #B95;
+  text-decoration: none;
+  transition: all 0.5s ease-in-out;
+}
+
+.post-date a:hover {
+  color: #ABB2B9;
+  text-decoration: none;
+  transition: all 0.5s ease-in-out;
+}
+
 p, a, {
   text-shadow: 0 0 8px rgba(255, 255, 255, 0.3);
   font-family: Courier, monospace;
