@@ -48,6 +48,11 @@
 <body>
   <main id="main">
 
+    <!-- Pre loader screen for site -->
+    <div class="loader-wrapper">
+      <span class="loader"><span class="loader-inner"></span></span>
+    </div>
+
 
     <!-- Corner fixed navigator area -->
     <div class="navlist">
@@ -452,6 +457,11 @@
   <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script><script  src="./webjs/welcomesection.js"></script>
   <script  src="./script.js"></script>
 
+  <script type="text/javascript">
+    $(window).on("load",function(){
+         $(".loader-wrapper").fadeOut("slow");
+    });
+  </script>
 
 </body>
 </html>
