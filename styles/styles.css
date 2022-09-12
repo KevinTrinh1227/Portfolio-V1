@@ -223,6 +223,41 @@ a:hover {
 
 
 /*--------------------------------------------------------------
+# Education Section styles
+--------------------------------------------------------------*/
+
+.education table, td, th {
+  border: 1px solid #000;
+}
+
+.education h4 {
+  padding-bottom: 0.8rem;
+  color: #B95;
+}
+
+.educationTitleSperator {
+  padding-top: 3rem;
+}
+
+.education th {
+  text-align: center;
+  color: #B95;
+}
+
+.education table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.education td {
+  height: 50px;
+  color: #ABB2B9;
+  vertical-align: bottom;
+}
+
+
+
+/*--------------------------------------------------------------
 # Pre Loader Screen Styles
 --------------------------------------------------------------*/
 
