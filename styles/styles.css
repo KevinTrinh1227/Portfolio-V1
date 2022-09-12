@@ -227,12 +227,17 @@ a:hover {
 --------------------------------------------------------------*/
 
 .education table, td, th {
-  border: 1px solid #000;
+  border: 1px solid #17202A;
 }
 
 .education h4 {
   padding-bottom: 0.8rem;
+  text-decoration: underline;
   color: #B95;
+}
+
+.education td {
+  padding-left: 0.7rem;
 }
 
 .educationTitleSperator {
@@ -242,6 +247,7 @@ a:hover {
 .education th {
   text-align: center;
   color: #B95;
+  text-shadow: 0 0 3px rgba(255, 255, 255, 0.25);
 }
 
 .education table {
