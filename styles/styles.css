@@ -262,14 +262,50 @@ a:hover {
 }
 
 /*--------------------------------------------------------------
-# Extra Ciricular Styles
+# Extraciricular Styles
 --------------------------------------------------------------*/
 
 .education-extras h4 {
+  text-decoration: underline;
+  color: #B95;
+  text-shadow: 0 0 3px rgba(255, 255, 255, 0.2);
   padding-top: 5rem;
   text-align: center;
 }
 
+.education-extras table {
+  width: 80%;
+}
+
+.education-extras p {
+  color: #ABB2B9;
+  text-align: center;
+}
+
+.education-extras table th {
+  text-align: center;
+  color: #ECF0F1;
+}
+
+.education-extras table td {
+  text-align: left;
+  padding-left: 0.5rem;
+  height: 50px;
+  color: #ABB2B9;
+  vertical-align: bottom;
+}
+
+.education-extras a {
+  text-decoration: none;
+  color: #B95;
+  text-shadow: 0 0 3px rgba(255, 255, 255, 0.2);
+}
+
+.education-extras a:hover {
+  color: #ECF0F1;
+  transition: all 0.5s ease-in-out;
+  text-shadow: 0 0 2px rgba(255, 255, 255, 0.1);
+}
 
 
 /*--------------------------------------------------------------
