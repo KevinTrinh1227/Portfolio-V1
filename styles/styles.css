@@ -223,7 +223,7 @@ a:hover {
 
 
 /*--------------------------------------------------------------
-# Education Section styles
+# Education Course Table styles
 --------------------------------------------------------------*/
 
 .education table, td, th {
@@ -259,6 +259,15 @@ a:hover {
   height: 50px;
   color: #ABB2B9;
   vertical-align: bottom;
+}
+
+/*--------------------------------------------------------------
+# Extra Ciricular Styles
+--------------------------------------------------------------*/
+
+.education-extras h4 {
+  padding-top: 5rem;
+  text-align: center;
 }
 
 
