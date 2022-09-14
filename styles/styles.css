@@ -180,8 +180,8 @@ a:hover {
 }
 
 .about-me-desc strong a:hover {
-  font-family: Courier, monospace;
   color: #ABB2B9;
+  text-decoration: none;
 }
 
 .myportrait {
