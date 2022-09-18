@@ -10,7 +10,7 @@ body {background: #17202A;}
 
 .webgl-content .logo.Dark {background-image: url('progressLogo.Dark.png');}
 .webgl-content .progress.Dark .empty {background-image: url('progressEmpty.Dark.png');}
-.webgl-content .progress.Light .full {background-image: url('progressFull.Light.png');}
+.webgl-content .progress.Dark .full {background-image: url('progressFull.Dark.png');}
 
 .webgl-content .footer {margin-top: 5px; height: 38px; line-height: 38px; font-family: Helvetica, Verdana, Arial, sans-serif; font-size: 18px;}
 .webgl-content .footer .webgl-logo, .title, .fullscreen {height: 100%; display: inline-block; background: transparent center no-repeat;}
