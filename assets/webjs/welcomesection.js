@@ -1,5 +1,5 @@
 document.getElementsByTagName("p")[1].innerHTML =
-    "<span class='comment'>/* ----------- <br/>char siteAuthor[] = 'Kevin Huy Trinh'<br/>char currentClassification[] = 'Sophomore' <br/>char lastUpdated[] = '9/29/2022'</br> --------- */</span></br></br>";
+    "<span class='comment'>/* ----------- <br/>char siteAuthor[] = 'Kevin Huy Trinh'<br/>char currentClassification[] = 'Sophomore' <br/>char lastUpdated[] = '9/30/2022'</br> --------- */</span></br></br>";
 
 var str = document.getElementsByTagName("section")[0].innerHTML.toString();
 var i = 0;
