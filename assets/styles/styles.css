@@ -562,7 +562,7 @@ p, a, {
   margin: 1rem 0;
 }
 .recentprojects-wrapper .post-meta ul {
-  border-left: 4px solid #0078ff;
+  border-left: 4px solid #212f3d;
   margin-top: 1rem;
 }
 .recentprojects-wrapper .post-meta ul li {
@@ -570,13 +570,13 @@ p, a, {
   margin-left: 15px;
 }
 .recentprojects-wrapper .post-meta ul a {
-  color: #0078ff;
+  color: #212f3d;
 }
 .recentprojects-wrapper .post-meta ul span {
   color: #1e1e1e;
 }
 .recentprojects-wrapper .blockquote {
-  border-left: 4px solid #0078ff;
+  border-left: 4px solid #212f3d;
   padding: 18px;
   font-style: italic;
 }
@@ -638,10 +638,10 @@ p, a, {
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid #0078ff;
+  border: 1px solid #212f3d;
 }
 .certifications-details .certifications-details-slider .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #0078ff;
+  background-color: #212f3d;
 }
 .certifications-details .certifications-info {
   padding: 30px;
