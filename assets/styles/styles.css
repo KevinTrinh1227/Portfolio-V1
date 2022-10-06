@@ -770,7 +770,7 @@ li {
 
 .navlist ul li a {
   color: #B95;
-  text-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
+  text-shadow: 0 0 5px rgba(255, 255, 255, 0.4);
   border: none;
   outline: none;
   font-weight: bold;
@@ -817,6 +817,8 @@ li {
 
 .navlist ul li button {
   color: #B95;
+  font-size: 1rem;
+  text-shadow: 0 0 5px rgba(255, 255, 255, 0.4);
   border: none;
   outline: none;
   background: #17202A;
