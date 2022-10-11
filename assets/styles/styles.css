@@ -256,7 +256,7 @@ a:hover {
   border-radius: 3px;
   background-color: #000;
   background-color: hsla(0, 0%, 20%, 0.9);
-  color: #fff;
+  color: #B95;
   content: attr(data-tooltip);
   text-align: center;
   font-size: 14px;
