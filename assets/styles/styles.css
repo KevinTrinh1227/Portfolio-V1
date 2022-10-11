@@ -245,8 +245,8 @@ a:hover {
 /* Position tooltip above the element */
 [data-tooltip]:before {
   position: absolute;
-  bottom: 150%;
-  left: 50%;
+  bottom: 50%;
+  left: 20%;
   margin-bottom: 5px;
   margin-left: -80px;
   padding: 7px;
@@ -266,8 +266,8 @@ a:hover {
 /* Triangle hack to make tooltip look like a speech bubble */
 [data-tooltip]:after {
   position: absolute;
-  bottom: 150%;
-  left: 50%;
+  bottom: 50%;
+  left: 20%;
   margin-left: -5px;
   width: 0;
   border-top: 5px solid #000;
