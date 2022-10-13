@@ -5,4 +5,4 @@ The goal of this project was to make a neat and simplistic website that will dis
 all of my relevant coursework, experience, and appropriate information about me and
 my career.
 
-![image](https://user-images.githubusercontent.com/48145892/195505116-ea261436-0f2d-4e3c-83c9-73728232f2da.png)
+![image](https://user-images.githubusercontent.com/48145892/195505966-87f483e8-2db6-4937-a423-48397379a8d4.gif)
