@@ -8,4 +8,4 @@ my career.
 This website is continously being updated throughout the school year.
 
 ## At a Glance
-![26ffb64549e6439254ae741aa45b53d1](https://user-images.githubusercontent.com/48145892/196123651-db3bb440-efb4-45e5-9baf-40f264292fe4.gif)
+![46e156791506ec0e14a090520157ced5](https://user-images.githubusercontent.com/48145892/196124376-180430a9-3742-4b55-b139-c550c3b0bd24.gif)
