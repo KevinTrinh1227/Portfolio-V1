@@ -3,12 +3,7 @@ body {
   color: #4e4e4e;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h1, h2, h3, h4, h5, h6 {
   color: #1e1e1e;
 }
 
@@ -86,7 +81,6 @@ a:hover {
   vertical-align: middle;
 }
 
-/*--/ Sections /--*/
 .sect-4 {
   padding: 4rem 0;
 }
@@ -99,14 +93,12 @@ a:hover {
   margin-top: 4rem;
 }
 
-/*--/ Title s /--*/
 .title-s {
   font-weight: 600;
   color: #1e1e1e;
   font-size: 1.1rem;
 }
 
-/*--/ Title A /--*/
 .title-box {
   padding-top: 6rem;
   margin-bottom: 4rem;
@@ -220,6 +212,21 @@ a:hover {
   }
 }
 
+/*--------------------------------------------------------------
+# Revealing scroll effect
+--------------------------------------------------------------*/
+
+.reveal{
+  position: relative;
+  transform: translateY(150px);
+  opacity: 0;
+  transition: all 2s ease;
+}
+
+.reveal.active{
+  transform: translateY(0px);
+  opacity: 1;
+}
 
 
 /*--------------------------------------------------------------
