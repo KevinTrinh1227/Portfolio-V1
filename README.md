@@ -15,7 +15,7 @@
 The objective of this project was to build and design a neat but simplistic website that would showcase all of my accomplishments, academic coursework, experience, personal projects, and appropriate information applicable to my career. This website is also an ongoing project to practice front-end development and is continuously being updated for the latest relevant information regarding my career. 
 
 
-## 🎨 color codes
+## Color Codes
 
 | Color          | Hex                                                                |
 | -------------- | ------------------------------------------------------------------ |
