@@ -19,8 +19,8 @@ The objective of this project was to build and design a neat but simplistic webs
 
 | Color          | Hex                                                                |
 | -------------- | ------------------------------------------------------------------ |
-| Dark Navy Blue | ! `#17202A` |
-| Light Navy     | ![#112240](https://via.placeholder.com/10/0a192f?text=+) `#112240` |
+| Dark Navy      | ![15x15](https://singlecolorimage.com/get/17202a/15x15) `#17202A` |
+| Semi Dark Navy | ![15x15](https://singlecolorimage.com/get/212f3d/15x15) `#212f3d` |
 | Lightest Navy  | ![#233554](https://via.placeholder.com/10/303C55?text=+) `#233554` |
 | Slate          | ![#8892b0](https://via.placeholder.com/10/8892b0?text=+) `#8892b0` |
 | Light Slate    | ![#a8b2d1](https://via.placeholder.com/10/a8b2d1?text=+) `#a8b2d1` |
