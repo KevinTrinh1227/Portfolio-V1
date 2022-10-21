@@ -19,11 +19,9 @@ The objective of this project was to build and design a neat but simplistic webs
 
 | Color          | Hex                                                                |
 | -------------- | ------------------------------------------------------------------ |
-| Dark Navy      | ![15x15](https://singlecolorimage.com/get/17202a/15x15) `#17202A` |
-| Semi Dark Navy | ![15x15](https://singlecolorimage.com/get/212f3d/15x15) `#212f3d` |
-| Lightest Navy  | ![#233554](https://via.placeholder.com/10/303C55?text=+) `#233554` |
-| Slate          | ![#8892b0](https://via.placeholder.com/10/8892b0?text=+) `#8892b0` |
-| Light Slate    | ![#a8b2d1](https://via.placeholder.com/10/a8b2d1?text=+) `#a8b2d1` |
-| Lightest Slate | ![#ccd6f6](https://via.placeholder.com/10/ccd6f6?text=+) `#ccd6f6` |
-| White          | ![#e6f1ff](https://via.placeholder.com/10/e6f1ff?text=+) `#e6f1ff` |
-| Green          | ![#64ffda](https://via.placeholder.com/10/64ffda?text=+) `#64ffda` |
+| Dark Navy      | ![15x15](https://singlecolorimage.com/get/17202a/15x15) `#17202A`  |
+| Semi Dark Navy | ![15x15](https://singlecolorimage.com/get/212f3d/15x15) `#212f3d`  |
+| Semi Dark Gold | ![15x15](https://singlecolorimage.com/get/BB9955/15x15) `#BB9955`  |
+| Bone White     | ![15x15](https://singlecolorimage.com/get/ECF0F1/15x15) `#ECF0F1`  |
+| Light Gray     | ![15x15](https://singlecolorimage.com/get/ABB2B9/15x15) `#ABB2B9`  |
+| Dark Gray      | ![15x15](https://singlecolorimage.com/get/4D4D4C/15x15) `4D4D4C`   |
