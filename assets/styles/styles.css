@@ -3,21 +3,6 @@ body {
   color: #4e4e4e;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  color: #1e1e1e;
-}
-
-a {
-  color: #1e1e1e;
-  text-decoration: none;
-  transition: all 0.5s ease-in-out;
-}
-a:hover {
-  color: #ABB2B9;
-  text-decoration: none;
-  transition: all 0.5s ease-in-out;
-}
-
 .p-r {
   position: relative;
 }
