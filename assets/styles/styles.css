@@ -489,6 +489,10 @@ body {
   margin: 10px 0;
 }
 
+.intro_section h3 i {
+  padding-right: 0.8rem;
+}
+
 .intro_section img {
   display: none;
 }
@@ -821,20 +825,22 @@ li {
   display: none;
 }
 
-.navlist ul li a:hover {
-  color: #ABB2B9;
-  text-decoration: none;
-  transition: all 0.2s ease-in-out;
-}
-
 .navlist ul li a {
   color: #B95;
-  text-shadow: 0 0 5px rgba(255, 255, 255, 0.4);
+  text-shadow: 0 0 8px rgba(255, 255, 255, 0.3);
   border: none;
   outline: none;
   font-weight: bold;
   font-size: 1rem;
 }
+
+.navlist ul li a:hover {
+  color: #ECF0F1;
+  text-decoration: none;
+  transition: all 0.5s ease-in-out;
+  text-shadow: 0 0 2px rgba(255, 255, 255, 0.1);
+}
+
 
 @media (min-width: 1850px) {
   .navlist {
