@@ -828,8 +828,7 @@ li {
 .navlist ul li a {
   color: #B95;
   text-shadow: 0 0 8px rgba(255, 255, 255, 0.3);
-  border: none;
-  outline: none;
+  text-decoration: none;
   font-weight: bold;
   font-size: 1rem;
 }
@@ -875,7 +874,7 @@ li {
 
 /* discord button copy and paste */
 .navlist ul li button:hover {
-  color: #ABB2B9;
+  color: #ECF0F1;
   text-decoration: none;
   transition: all 0.2s ease-in-out;
 }
