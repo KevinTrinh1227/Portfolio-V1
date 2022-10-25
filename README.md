@@ -13,3 +13,15 @@
 
 ## Description
 The objective of this project was to build and design a neat but simplistic website that would showcase all of my accomplishments, academic coursework, experience, personal projects, and appropriate information applicable to my career. This website is also an ongoing project to practice front-end development and is continuously being updated for the latest relevant information regarding my career. 
+
+
+## Color Codes
+
+| Color          | Hex                                                                |
+| -------------- | ------------------------------------------------------------------ |
+| Dark Navy      | ![15x15](https://singlecolorimage.com/get/17202a/15x15) `#17202A`  |
+| Semi Dark Navy | ![15x15](https://singlecolorimage.com/get/212f3d/15x15) `#212f3d`  |
+| Semi Dark Gold | ![15x15](https://singlecolorimage.com/get/BB9955/15x15) `#BB9955`  |
+| Bone White     | ![15x15](https://singlecolorimage.com/get/ECF0F1/15x15) `#ECF0F1`  |
+| Light Gray     | ![15x15](https://singlecolorimage.com/get/ABB2B9/15x15) `#ABB2B9`  |
+| Dark Gray      | ![15x15](https://singlecolorimage.com/get/4D4D4C/15x15) `4D4D4C`   |
