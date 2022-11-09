@@ -9,6 +9,6 @@ function myFunction() {
   /* Copy the text inside the text field */
   navigator.clipboard.writeText(copyText.value);
 
-  /* Alert the copied text */
+  /* Alert the copied text to clipboard*/
   alert("Click \"OK\" to copy to clipboard: " + copyText.value);
 }
