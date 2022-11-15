@@ -3,7 +3,7 @@
 </p>
 
 <h1 align="center">
-  kevintrinh.me
+  kevintrinh.dev
 </h1>
 <p align="center">
   The first iteration of <a href="https://www.kevintrinh.me" target="_blank">www.kevintrinh.me</a> built with JS, HTML, and CSS.
