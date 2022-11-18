@@ -9,7 +9,7 @@ async function getDate() {
 
     let startText = "<span class='comment'>/* ----------- <br/>char siteAuthor[] = 'Kevin Huy Trinh'<br/>char currentClassification[] = 'Sophomore' <br/>char lastUpdated[] = '";
     let endText = "'</br> --------- */</span></br></br>";
-    result = startText.concat((lastUpdated.slice(0,9)).replaceAll("-", "/"), endText);
+    result = startText.concat((lastUpdated.slice(0,10)).replaceAll("-", "/"), endText);
 
     document.getElementsByTagName("p")[1].innerHTML = result;
 
