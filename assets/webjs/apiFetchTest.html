@@ -1,0 +1,18 @@
+<html>
+    <body>
+        <script>
+            const apiUrl = 'https://api.github.com/repos/KevinTrinh1227/Kevin-Trinh';
+            var updated_at;
+
+            async function getISS() {
+                const response = await fetch(apiUrl);
+                const data = await response.json();
+                const { updated_at } = data;
+                console.log(updated_at);
+            }
+
+            console.log(lastUpdated);
+            getISS();
+        </script>
+    </body>
+</html>
