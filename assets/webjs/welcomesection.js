@@ -1,4 +1,4 @@
-const apiUrl = 'https://api.github.com/repos/gazijarin/GameCentre';
+const apiUrl = 'https://api.github.com/repos/KevinTrinh1227/Kevin-Trinh';
 let lastUpdated;
 async function getDate() {
     const response = await fetch(apiUrl);
@@ -9,7 +9,7 @@ async function getDate() {
 
     let startText = "<span class='comment'>/* ----------- <br/>char siteAuthor[] = 'Kevin Huy Trinh'<br/>char currentClassification[] = 'Sophomore' <br/>char lastUpdated[] = '";
     let endText = "'</br> --------- */</span></br></br>";
-    result = startText.concat(lastUpdated, endText);
+    result = startText.concat((lastUpdated.slice(0,9)).replaceAll("-", "/"), endText);
 
     document.getElementsByTagName("p")[1].innerHTML = result;
 
