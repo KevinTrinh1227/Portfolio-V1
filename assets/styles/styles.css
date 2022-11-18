@@ -503,6 +503,8 @@ a {
 
 .intro_section .comment {
   color: #4d4d4c;
+  text-decoration: none;
+  text-shadow: none;
 }
 
 .intro_section p:nth-of-type(8) {
