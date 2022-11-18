@@ -1,6 +1,8 @@
-let text = "<span class='comment'>/* ----------- <br/>char siteAuthor[] = 'Kevin Huy Trinh'<br/>char currentClassification[] = 'Sophomore' <br/>char lastUpdated[] = '11/17/2022'</br> --------- */</span></br></br>";
+let startText = "<span class='comment'>/* ----------- <br/>char siteAuthor[] = 'Kevin Huy Trinh'<br/>char currentClassification[] = 'Sophomore' <br/>char lastUpdated[] = ";
+let endText = "</br> --------- */</span></br></br>";
+result = startText.concat("'11/17/2022'", endText);
 
-document.getElementsByTagName("p")[1].innerHTML = text;
+document.getElementsByTagName("p")[1].innerHTML = result;
 
 var str = document.getElementsByTagName("section")[0].innerHTML.toString();
 var i = 0;
