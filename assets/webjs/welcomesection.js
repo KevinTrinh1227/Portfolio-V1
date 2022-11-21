@@ -1,3 +1,5 @@
+// This js uses github api to show latest update to portfolio on landing page
+
 const apiUrl = 'https://api.github.com/repos/KevinTrinh1227/Kevin-Trinh';
 let lastUpdated;
 async function getDate() {
@@ -6,7 +8,7 @@ async function getDate() {
     lastUpdated = data.updated_at;
 
     console.log(lastUpdated);
-
+    // cuts down and formats the api value
     updateYear = lastUpdated.slice(0, 4);
     console.log("Year:", updateYear);
     updateMonth = lastUpdated.slice(5, 7);
@@ -16,6 +18,7 @@ async function getDate() {
     updateDate = updateMonth.concat("/" + updateDay + "/" + updateYear);
     console.log(updateDate);
 
+    // concats the strings and displays them
     let startText = "<span class='comment'>/* ----------- <br/>char siteAuthor[] = 'Kevin Huy Trinh'<br/>char currentClassification[] = 'Sophomore' <br/>char lastUpdated[] = '";
     let endText = "'</br> --------- */</span></br></br>";
     result = startText.concat(updateDate, endText);
