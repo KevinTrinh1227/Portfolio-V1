@@ -9,7 +9,13 @@ async function getDate() {
 
     let startText = "<span class='comment'>/* ----------- <br/>char siteAuthor[] = 'Kevin Huy Trinh'<br/>char currentClassification[] = 'Sophomore' <br/>char lastUpdated[] = '";
     let endText = "'</br> --------- */</span></br></br>";
-    result = startText.concat((lastUpdated.slice(0,10)).replaceAll("-", "/"), endText);
+    lastUpdatdSliced = (lastUpdated.slice(0, 10)).replaceAll("-", "/");
+    console.log(lastUpdatdSliced);
+    lastUpdatedReplace = lastUpdatedSliced.replaceAll("-", "/");
+    lastUpdatedSplit = lastUpdatedReplace.split('');
+    lastUpdatedReversed = lastUpdatedSplit.reverse();
+    lastUpdatedResult = lastUpdatedReversed.join('');
+    result = startText.concat(lastUpdatedResult, endText);
 
     document.getElementsByTagName("p")[1].innerHTML = result;
 
