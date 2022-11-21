@@ -7,15 +7,16 @@ async function getDate() {
 
     console.log(lastUpdated);
 
+    updateYear = lastUpdated.slice(0, 4);
+    console.log("Year:", updateYear);
+    updateMonth = lastUpdated.slice(5, 7);
+    console.log("Month:", updateMonth);
+
     let startText = "<span class='comment'>/* ----------- <br/>char siteAuthor[] = 'Kevin Huy Trinh'<br/>char currentClassification[] = 'Sophomore' <br/>char lastUpdated[] = '";
     let endText = "'</br> --------- */</span></br></br>";
-    lastUpdatdSliced = (lastUpdated.slice(0, 10)).replaceAll("-", "/");
-    console.log(lastUpdatdSliced);
-    lastUpdatedReplace = lastUpdatedSliced.replaceAll("-", "/");
-    lastUpdatedSplit = lastUpdatedReplace.split('');
-    lastUpdatedReversed = lastUpdatedSplit.reverse();
-    lastUpdatedResult = lastUpdatedReversed.join('');
-    result = startText.concat(lastUpdatedResult, endText);
+    lastUpdatedSliced = (lastUpdated.slice(0, 10)).replaceAll("-", "/");
+    console.log(lastUpdatedSliced);
+    result = startText.concat(lastUpdatedSliced, endText);
 
     document.getElementsByTagName("p")[1].innerHTML = result;
 
