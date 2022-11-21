@@ -11,14 +11,14 @@ async function getDate() {
     console.log("Year:", updateYear);
     updateMonth = lastUpdated.slice(5, 7);
     console.log("Month:", updateMonth);
-    updateDay = lastUpdated.slice(8, 9);
+    updateDay = lastUpdated.slice(8, 10);
     console.log("Day:",updateDay);
+    updateDate = updateMonth.concat("/" + updateDay + "/" + updateYear);
+    console.log(updateDate);
 
     let startText = "<span class='comment'>/* ----------- <br/>char siteAuthor[] = 'Kevin Huy Trinh'<br/>char currentClassification[] = 'Sophomore' <br/>char lastUpdated[] = '";
     let endText = "'</br> --------- */</span></br></br>";
-    lastUpdatedSliced = (lastUpdated.slice(0, 10)).replaceAll("-", "/");
-    console.log(lastUpdatedSliced);
-    result = startText.concat(lastUpdatedSliced, endText);
+    result = startText.concat(updateDate, endText);
 
     document.getElementsByTagName("p")[1].innerHTML = result;
 
