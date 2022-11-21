@@ -11,6 +11,8 @@ async function getDate() {
     console.log("Year:", updateYear);
     updateMonth = lastUpdated.slice(5, 7);
     console.log("Month:", updateMonth);
+    updateDay = lastUpdated.slice(8, 9);
+    console.log("Day:",updateDay);
 
     let startText = "<span class='comment'>/* ----------- <br/>char siteAuthor[] = 'Kevin Huy Trinh'<br/>char currentClassification[] = 'Sophomore' <br/>char lastUpdated[] = '";
     let endText = "'</br> --------- */</span></br></br>";
