@@ -1,21 +1,21 @@
 // This js uses github api to show latest update to portfolio on landing page
 
 const apiUrl = 'https://api.github.com/repos/KevinTrinh1227/Kevin-Trinh';
-let lastUpdated;
+let lastPushed;
 async function getDate() {
     const response = await fetch(apiUrl);
     const data = await response.json();
 
     //lastUodate = pushed_at value on api for the apiUrl
-    lastUpdated = data.pushed_at;
+    lastPushed = data.pushed_at;
 
-    console.log(lastUpdated);
+    console.log(lastPushed);
     // cuts down and formats the api value
-    updateYear = lastUpdated.slice(0, 4);
+    updateYear = lastPushed.slice(0, 4);
     console.log("Year:", updateYear);
-    updateMonth = lastUpdated.slice(5, 7);
+    updateMonth = lastPushed.slice(5, 7);
     console.log("Month:", updateMonth);
-    updateDay = lastUpdated.slice(8, 10);
+    updateDay = lastPushed.slice(8, 10);
     console.log("Day:",updateDay);
     updateDate = updateMonth.concat("/" + updateDay + "/" + updateYear);
     console.log(updateDate);
