@@ -5,7 +5,9 @@ let lastUpdated;
 async function getDate() {
     const response = await fetch(apiUrl);
     const data = await response.json();
-    lastUpdated = data.updated_at;
+
+    //lastUodate = pushed_at value on api for the apiUrl
+    lastUpdated = data.pushed_at;
 
     console.log(lastUpdated);
     // cuts down and formats the api value
