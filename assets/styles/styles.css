@@ -874,26 +874,6 @@ li {
 
 }
 
-.displaynone {
-  display: none;
-}
-
-/* discord button copy and paste */
-.navlist ul li button:hover {
-  color: #ECF0F1;
-  text-decoration: none;
-  transition: all 0.2s ease-in-out;
-}
-
-.navlist ul li button {
-  color: #B95;
-  font-size: 1rem;
-  text-shadow: 0 0 5px rgba(255, 255, 255, 0.4);
-  border: none;
-  outline: none;
-  background: #17202A;
-}
-
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
