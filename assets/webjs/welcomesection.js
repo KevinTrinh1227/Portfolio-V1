@@ -1,6 +1,6 @@
 // This js uses github api to show latest update to portfolio on landing page
 
-const apiUrl = 'https://api.github.com/repos/KevinTrinh1227/Red-Radar';
+const apiUrl = 'https://api.github.com/repos/KevinTrinh1227/Kevin-Trinh';
 async function getDate() {
     const response = await fetch(apiUrl);
     const push = await response.json();
