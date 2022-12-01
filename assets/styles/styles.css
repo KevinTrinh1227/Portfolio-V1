@@ -376,13 +376,18 @@ a {
 --------------------------------------------------------------*/
 
 .resumeButtons {
-  text-align: center;
+  padding-top: 1rem;
+  font-size: 1.15rem;
 }
 
-.resumeButtons a {
-  padding: 1rem;
-  outline: #B95 1px solid;
-  border-radius: 0.5rem;
+.resumeButtons a p {
+  color: #B95;
+}
+
+.resumeButtons a p:hover {
+  color: #ECF0F1;
+  transition: all 0.5s ease-in-out;
+  text-shadow: 0 0 2px rgba(255, 255, 255, 0.1);
 }
 
 
