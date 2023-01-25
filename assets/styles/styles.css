@@ -289,6 +289,18 @@ a {
 # Education Course Table styles
 --------------------------------------------------------------*/
 
+.course-title h4 {
+  text-decoration: underline;
+  color: #B95;
+  text-shadow: 0 0 3px rgba(255, 255, 255, 0.2);
+  text-align: center;
+}
+
+.course-title p {
+  color: #ABB2B9;
+  text-align: center;
+}
+
 .education table, td, th {
   border: 1px solid #17202A;
 }
@@ -369,21 +381,28 @@ a {
   text-shadow: 0 0 2px rgba(255, 255, 255, 0.1);
 }
 
+.course-title strong {
+  color: #B95;
+}
+
 
 /*--------------------------------------------------------------
 # Resume Buttons
 --------------------------------------------------------------*/
 
 .resumeButtons {
-  padding-top: 1rem;
+  text-align: center;
+  padding-top: 1.5rem;
   font-size: 1.15rem;
 }
 
-.resumeButtons a p {
+.resumeButtons a {
   color: #B95;
+  text-shadow: 0 0 5px rgba(187, 153, 85, 0.9);
+  padding: 1rem;
 }
 
-.resumeButtons a p:hover {
+.resumeButtons a:hover {
   color: #ECF0F1;
   transition: all 0.5s ease-in-out;
   text-shadow: 0 0 1px rgba(255, 255, 255, 0.1);
