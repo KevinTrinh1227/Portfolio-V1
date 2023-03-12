@@ -243,7 +243,7 @@ a {
   position: absolute;
   bottom: 50%;
   left: 20%;
-  margin-bottom: 5px;
+  margin-bottom: 20px;
   margin-left: -80px;
   padding: 7px;
   width: 160px;
@@ -266,8 +266,8 @@ a {
   bottom: 50%;
   left: 20%;
   margin-left: -5px;
+  margin-bottom: 15px;
   width: 0;
-  border-top: 5px solid #000;
   border-top: 5px solid hsla(0, 0%, 20%, 0.9);
   border-right: 5px solid transparent;
   border-left: 5px solid transparent;
