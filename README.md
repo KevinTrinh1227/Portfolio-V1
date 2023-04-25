@@ -1,6 +1,7 @@
 <p align="center">
-  <img width="48" src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/apple/285/man-technologist-light-skin-tone_1f468-1f3fb-200d-1f4bb.png"/>
+  <img width="48" src="/assets/images/favicon.png"/>
 </p>
+
 
 <h1 align="center">
   kevintrinh.dev
