@@ -1,12 +1,13 @@
 <p align="center">
-  <img width="48" src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/apple/285/man-technologist-light-skin-tone_1f468-1f3fb-200d-1f4bb.png"/>
+  <img width="48" src="/assets/images/favicon.png"/>
 </p>
+
 
 <h1 align="center">
   kevintrinh.dev
 </h1>
 <p align="center">
-  The first iteration of <a href="https://www.kevintrinh.dev" target="_blank">www.kevintrinh.dev</a> built with JS, HTML, and CSS.
+  The first iteration of <a href="https://www.kevintrinh.dev" target="_blank">www.kevintrinh.dev</a> built with HTML, CSS, and some JS.
 </p>
 
 <img width="1080" alt="Screen Shot 2021-03-15 at 8 29 18 PM" src="https://user-images.githubusercontent.com/48145892/196124376-180430a9-3742-4b55-b139-c550c3b0bd24.gif">
