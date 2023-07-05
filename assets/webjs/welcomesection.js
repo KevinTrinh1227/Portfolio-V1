@@ -1,45 +1,43 @@
-// This js uses github api to show latest update to portfolio on landing page
-
 const apiUrl = 'https://api.github.com/repos/KevinTrinh1227/Kevin-Trinh';
-async function getDate() {
-    const response = await fetch(apiUrl);
-    const push = await response.json();
 
-    //lastUodate = pushed_at value on api for the apiUrl
-    lastPushed = push.pushed_at;
-
-    console.log(push.pushed_at);
-    // cuts down and formats the api value
-    updateYear = lastPushed.slice(0, 4);
-    console.log("Year:", updateYear);
-    updateMonth = lastPushed.slice(5, 7);
-    console.log("Month:", updateMonth);
-    updateDay = lastPushed.slice(8, 10);
-    console.log("Day:",updateDay);
-    updateDate = updateMonth.concat("/" + updateDay + "/" + updateYear);
-    console.log(updateDate);
-
-    // concats the strings and displays them
-    let startText = "<span class='comment'>/* ----------- <br/>char siteAuthor[] = 'Kevin Huy Trinh'<br/>char currentClassification[] = 'Sophomore' <br/>char lastUpdated[] = '";
-    let endText = "'</br> --------- */</span></br></br>";
-    result = startText.concat(updateDate, endText);
-
-    document.getElementsByTagName("p")[1].innerHTML = result;
-
-    var str = document.getElementsByTagName("section")[0].innerHTML.toString();
-    var i = 0;
-    document.getElementsByTagName("section")[0].innerHTML = "";
-
-    setTimeout(function() {
-        var se = setInterval(function() {
-            i++;
-            document.getElementsByTagName("section")[0].innerHTML = str.slice(0, i) + "|";
-            if (i == str.length) {
-                clearInterval(se);
-                document.getElementsByTagName("section")[0].innerHTML = str;
-            }
-        }, 10);
-    });
+async function fetchData(url) {
+  const response = await fetch(url);
+  const data = await response.json();
+  return data;
 }
 
-getDate();
+function formatDate(dateString) {
+  const date = new Date(dateString);
+  const options = { year: 'numeric', month: 'short', day: 'numeric' };
+  return date.toLocaleDateString('en-US', options);
+}
+
+async function updatePortfolio() {
+  try {
+    const data = await fetchData(apiUrl);
+    const lastPushed = data.pushed_at;
+    const updateDate = formatDate(lastPushed);
+
+    const startText = `/* -----------
+      char siteAuthor[] = 'Kevin Huy Trinh'
+      char currentClassification[] = 'Sophomore'
+      char lastUpdated[] = '${updateDate}'
+      ----------- */`;
+
+    document.getElementById('portfolio-info').innerHTML = startText;
+
+    const sectionElement = document.getElementById('typewriter-section');
+    const originalText = sectionElement.textContent;
+    sectionElement.textContent = '';
+
+    for (let i = 0; i <= originalText.length; i++) {
+      setTimeout(() => {
+        sectionElement.textContent = originalText.slice(0, i) + '|';
+      }, 10 * i);
+    }
+  } catch (error) {
+    console.error('An error occurred:', error);
+  }
+}
+
+updatePortfolio();
