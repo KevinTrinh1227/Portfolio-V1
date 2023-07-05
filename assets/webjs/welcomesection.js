@@ -20,7 +20,7 @@ async function getDate() {
     console.log(updateDate);
 
     // concats the strings and displays them
-    let startText = "<span class='comment'>/* ----------- <br/>char siteAuthor[] = 'Kevin Huy Trinh'<br/>char currentClassification[] = 'Sophomore' <br/>char lastUpdated[] = '";
+    let startText = "<span class='comment'>/* ----------- <br/>char siteAuthor[] = 'Kevin Huy Trinh'<br/>char currentClassification[] = 'Junior' <br/>char lastUpdated[] = '";
     let endText = "'</br> --------- */</span></br></br>";
     result = startText.concat(updateDate, endText);
 
