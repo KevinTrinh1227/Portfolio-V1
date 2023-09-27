@@ -7,7 +7,12 @@
   Portfolio V1 Template
 </h1>
 <p align="center">
-  The first iteration of <a href="https://www.kevintrinh-v1.netlify.app" target="_blank">kevintrinh-v1.netlify.app</a> built with HTML, CSS, and some JS.
+  The first iteration of <a href="https://kevintrinh-v1.netlify.app" target="_blank">kevintrinh-v1.netlify.app</a> built with HTML, CSS, and some JS.
+</p>
+<p align="center">
+  <a href="https://kevintrinh-v1.netlify.app">
+    <img alt="Netlify Badge" src="https://api.netlify.com/api/v1/badges/bda950e2-c382-4756-8f7c-129785602a59/deploy-status" />
+  </a>
 </p>
 
 <img width="1080" alt="Screen Shot 2021-03-15 at 8 29 18 PM" src="https://user-images.githubusercontent.com/48145892/196124376-180430a9-3742-4b55-b139-c550c3b0bd24.gif">
