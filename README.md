@@ -13,6 +13,7 @@
   <a href="https://kevintrinh-v1.netlify.app">
     <img alt="Netlify Badge" src="https://api.netlify.com/api/v1/badges/bda950e2-c382-4756-8f7c-129785602a59/deploy-status" />
     <img alt="Netlify Badge" src="https://img.shields.io/badge/maintenance-as--is-yellow.svg" />
+    <img src="https://img.shields.io/github/v/release/KevinTrinh1227/Portfolio-V1.svg" alt="Release badge" />
   </a>
 </p>
 
