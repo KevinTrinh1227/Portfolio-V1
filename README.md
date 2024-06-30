@@ -22,6 +22,8 @@
 ## Description
 The objective of this project was to build and design a neat but simplistic website that would showcase all of my accomplishments, academic coursework, experience, personal projects, and appropriate information applicable to my career. This website is also an ongoing project to practice minor front-end development and is continuously being updated for the latest relevant information regarding my career. 
 
+**IMPORTANT:** As of June 2024, this project will no longer be maintained. If you have any issues or suggestions please open a ticket, pull a request, or email me.
+
 
 ## Color Codes
 
